@@ -1,0 +1,57 @@
+# Dependency folders
+node_modules/
+.venv/
+venv/
+env/
+ENV/
+site-packages/
+
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.tox/
+.nox/
+.ipynb_checkpoints/
+
+# numpy / scikit-learn generated files
+*.npy
+*.npz
+*.joblib
+*.pkl
+*.pickle
+scikit_learn_data/
+joblib_cache/
+cachedir/
+
+# Build / dist / packaging output
+build/
+dist/
+out/
+*.egg-info/
+.eggs/
+wheels/
+
+# Coverage output
+coverage/
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+
+# Editor / OS clutter
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+~$*
+
+# Local environment, secrets and logs (keep personal information out of the repo)
+.env
+.env.*
+*.log
+desktop.ini
